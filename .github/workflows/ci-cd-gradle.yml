@@ -26,7 +26,14 @@ jobs:
           distribution: 'temurin'
 
 
-      # 2. 서버 properties 생성
+      # 2. deploy.sh 권한 변경
+      - name: change deploy.sh
+        run: |
+          chmod 755 deploy.sh
+        shell: bash
+
+
+      # 3. 서버 properties 생성
       - name: new properties
         run: |
           cd ./src/main/resources
@@ -34,7 +41,7 @@ jobs:
           echo "${{ secrets.PROPERTIES }}" > ./application.properties
         shell: bash
 
-      # 3. Gradle build
+      # 4. Gradle build
       - name: Build with Gradle Wrapper
         run: |
           chmod +x ./gradlew

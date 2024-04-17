@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4028c3-c845-4419-bd32-6d273623a210" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd-gradle.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd-gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd-gradle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "213aee7b7243b1e5616b6222a8c23d74",
     "vue.rearranger.settings.migration": "true"
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713277111254</updated>
       <workItem from="1713277113205" duration="276000" />
-      <workItem from="1713337828088" duration="234000" />
+      <workItem from="1713337828088" duration="1921000" />
     </task>
     <servers />
   </component>
